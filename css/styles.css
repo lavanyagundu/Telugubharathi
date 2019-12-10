@@ -1,7 +1,14 @@
 .row-content{
    padding:50px,0; 
-   border-bottom: 1px ridge;
+   }
+.jumbotron
+{
+    background-color:CC0099;
+    margin: 0;
+
+
 }
-p{
-    border:red solid;
+.navbar{
+    background-color:blueviolet;
+
 }
