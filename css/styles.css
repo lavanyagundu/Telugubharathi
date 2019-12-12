@@ -1,8 +1,36 @@
-.row-content{
-   padding:50px,0; 
-   }
+
 .jumbotron
+{   margin: 0;  }  
+  header{
+       background-blend-mode: soft-light;
+      
+    
+  }
+  h3{
+   text-decoration-color: pink;
+  }
+  h1,h5
 {
-    background-color:CC0099;
-    margin: 0
+    text-align: center;
 }
+.btn {
+    background-color:rgb(170, 168, 21);
+    border-radius: 99px;
+    color:         #f6f4f4;
+    padding:       5px 5px;
+    font:         "Open Sans", sans-serif;
+    text-align:    center;
+    text-shadow:   1px 1px 0 #000;
+    margin-left: 10px;
+  }
+  .navbar {
+    background-color: rgb(170, 168, 21);}
+    .carousel-caption {
+        background-color: rgba(0, 0, 0, 0.5); 
+      }     
+      #carouselButton {
+        position: absolute;
+        right: 0;
+        bottom: 0; 
+      }
+      
