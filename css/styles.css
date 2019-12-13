@@ -3,17 +3,15 @@
 {  margin: 0;  
   background-image: linear-gradient(to right,lavender, lightseagreen,lavender);
   height: 350px;;
-  color : white;
-
-}  
-    
-  h2,h5,h3
+  color : black;
+}     
+  h2,h5,h4
 {
     text-align: center;
 
 }
 .btn {
-    border-radius: 20px;
+    border-radius: 15px;
     color:         #f5f6f4d5;
     padding:       5px 5px;
     font:         "Open Sans", sans-serif;
@@ -22,12 +20,11 @@
   }
   .navbar {
     background-color:lightseagreen;
-    font-size: 20px;
-       
-  }
-  
+    font-size: 20px;   
+  }  
   .border {
     display:block;
+    text-align: center;
    }
   .carousel-caption 
     {
