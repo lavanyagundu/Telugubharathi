@@ -1,7 +1,6 @@
 {
   "name": "telugubharathi",
   "version": "1.0.0",
-  "description": "",
   "main": "index.html",
   "scripts": {
     "start": "npm run lite",
@@ -18,5 +17,14 @@
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
     "popper.js": "^1.12.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lavanyagundu/Telugubharathi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lavanyagundu/Telugubharathi/issues"
+  },
+  "homepage": "https://github.com/lavanyagundu/Telugubharathi#readme",
+  "description": ""
 }
