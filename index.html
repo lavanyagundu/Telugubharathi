@@ -9,29 +9,30 @@
           <!-- <style>
                 .row {border: solid yellow;}    
                 .row div {border: solid purple;}
-                .form-row{border: solid green;}
-          </style>    -->           
+                .form-row{border: solid green;} 
+              </style>    -->
               <title>Home - తెలుగు భారతి</title>       
      </head>
     <body>
-        <header id ="k" class="" style="background-image: url(Images/aksharalu.jpg);background-repeat: no-repeat;background-size:cover; ">
-                <div class="container container-fluid">
+        <header class="jumbotron">            
+                <div class="container">
                     <div class="row">
-                            <div class="col-4">
-                                    <img src="images/logo.png"/>
+                            <div class="col col-md-4 align-self-center">
+                                    <img class="img-fluid" src="images/logo.png"/>
                                 </div>
-                        <div class="col-4 my-auto">
-                            <h1>తెలుగు భారతి</h1>
-                            <h5>తెలుగు	నేర్చుకోండి, తెలుగుదనం పంచండి</h5>
+                        <div class="col col-md-4 my-auto">
+                            <h2>తెలుగు భారతి</h2>
+                            <h5>తెలుగు నేర్చుకోండి, తెలుగుదనం పంచండి</h5>
                         </div>
-                        <div class=" col-4 my-auto">
-                            <button class="btn btn-dark">Register</button>
-                            <button class="btn btn-dark">LogIn</button>                          
+                        <div class="col col-md-4 my-auto">
+                            <button class="btn btn-warning btn-lg">SignUp</button>
+                            <button class="btn btn-success btn-lg">LogIn</button>                          
                          </div>
                     </div>   
                 </div>                                   
-        </header>
-         <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        </header> 
+
+         <nav class="navbar navbar-expand-md navbar-dark">
              <div class="container container-fluid"> 
                     <button class="navbar-toggler ml-auto" type="button"
                                    data-toggle="collapse" data-target="#tel-navbar">
@@ -39,12 +40,12 @@
                                 </button>
                                 <div class="collapse navbar-collapse" id="tel-navbar">
                                     <ul class="navbar-nav">
-                                        <li class="nav-items active"><a class="nav-link" href="#">Home</a></li>
+                                        <li class="nav-items"><a class="nav-link" href="#">Home</a></li>
                                         <li class="nav-items"><a class="nav-link"href="#">Schools</a></li>                      
                                         <li class="nav-items"> <a class="nav-link"href="#">Volunteers</a></li>
-                                        <li class="nav-items"><a class="nav-link"href="#">About us</a></li>
+                                        <li class="nav-items"><a class="nav-link"href="#">Aboutus</a></li>
                                         <li class="nav-items"><a class="nav-link"href="#">Donate</a></li>
-                                        <li class="nav-items"><a class="nav-link"href="contact.html">Contact us</a></li>
+                                        <li class="nav-items"><a class="nav-link"href="contact.html">Contactus</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -87,7 +88,7 @@
                     </div>
                     <div class="container">
                         <div class="row row-content">
-                            <div class="col-md-8 mx-auto">
+                            <div class="col-md-7 mx-auto">
                                 <div id="homeCarousel" class="carousel slide" data-ride="carousel">
                                     <ol class="carousel-indicators">
                                         <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
@@ -109,7 +110,7 @@
                                             </div>
                                         </div>
                                         <div class="carousel-item">
-                                            <img class="d-block w-100" src="" alt="volunteer Appreciation" />
+                                            <img class="d-block w-100" src="images/carousel/vyasam.jpg" alt="volunteer Appreciation" />
                                             <div class="carousel-caption">
                                                 <h3>Volunteer Appreciation-2019</h3>                    
                                             </div>
@@ -128,8 +129,8 @@
                                     </button>
                                 </div>
                             </div>
-                            <div class="col col-md-4">
-                                <h3 style="background-color: olive;">Latest News</h3>
+                            <div class="col col-md-5">
+                                <span class="border border-danger"></span><h3 class="list-group-item-success">Latest News</h3></span>
                                 <div id="accordion">
                                     <div role="tab" class="card-header">
                                         <h4>
@@ -148,10 +149,10 @@
                                         <div role="tabpanel" class="card-header">
                     
                                             <h4>
-                                                <a class="collapsed" data-toggle="collapse" data-target="#git">New Year Party<small></small>
+                                                <a class="collapsed" data-toggle="collapse" data-target="#">New Year Party<small></small>
                                                 </a>
                                             </h4>
-                                            <div class="collapse" id="git" data-parent="#accordion">
+                                            <div class="collapse" id="" data-parent="#accordion">
                                                 <div class="card-body">
                                                     <p class="d-none d-sm-block"></p>
                                                 </div>
@@ -161,7 +162,7 @@
                                     <div class="card">
                                         <div role="tabpanel" class="card-header">
                                             <h4>
-                                                <a class="collapsed" data-toggle="collapse" data-target="#mongo">Sankranthi sambaralu
+                                                <a class="collapsed" data-toggle="collapse" data-target="#">Sankranthi sambaralu
                                                     <small></small></a></h4>
                                             <div class="collapse" id="mongo" data-parent="accordion">
                                                 <div class="card-body">

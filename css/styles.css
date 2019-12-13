@@ -1,31 +1,36 @@
 
 .jumbotron
-{   margin: 0;  }  
-  header{
-       background-blend-mode: soft-light;
-      
+{  margin: 0;  
+  background-image: linear-gradient(to right,lavender, lightseagreen,lavender);
+  height: 350px;;
+  color : white;
+
+}  
     
-  }
-  h3{
-   text-decoration-color: pink;
-  }
-  h1,h5
+  h2,h5,h3
 {
     text-align: center;
+
 }
 .btn {
-    background-color:rgb(170, 168, 21);
-    border-radius: 99px;
-    color:         #f6f4f4;
+    border-radius: 20px;
+    color:         #f5f6f4d5;
     padding:       5px 5px;
     font:         "Open Sans", sans-serif;
     text-align:    center;
-    text-shadow:   1px 1px 0 #000;
-    margin-left: 10px;
+    margin : 20px;
   }
   .navbar {
-    background-color: rgb(170, 168, 21);}
-    .carousel-caption {
+    background-color:lightseagreen;
+    font-size: 20px;
+       
+  }
+  
+  .border {
+    display:block;
+   }
+  .carousel-caption 
+    {
         background-color: rgba(0, 0, 0, 0.5); 
       }     
       #carouselButton {
@@ -33,4 +38,5 @@
         right: 0;
         bottom: 0; 
       }
+     
       
