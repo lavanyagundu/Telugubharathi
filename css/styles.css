@@ -45,7 +45,7 @@ p{
     bottom: 0; 
 }
 .site-footer {
-    background-image: linear-gradient(#CEC8FF, white);
+    background-image: linear-gradient(to right,lavender, lightseagreen,lavender);
     padding: 20px 0;
  }
   .maincontainer{
