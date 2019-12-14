@@ -14,34 +14,51 @@ p{
  text-align: center;
 }
 .row-content {
-  padding: 50px 0;
-  border-bottom: 1px ridge;
-  min-height: 200px;
-  text-align: center; }
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+    text-align: center; 
+}
 .btn {
-    border-radius: 15px;
-    color:         #f5f6f4d5;
-    padding:       5px 5px;
-    font:         "Open Sans", sans-serif;
-    text-align:    center;
-    margin : 20px;
-  }
-  .navbar {
-    background-color:lightseagreen;
-    font-size: 20px;   
-  }  
-  .border {
-    display:block;
-    text-align: center;
-   }
-  .carousel-caption 
+      border-radius: 15px;
+      color:         #f5f6f4d5;
+      padding:       5px 5px;
+      font:         "Open Sans", sans-serif;
+      text-align:    center;
+      margin : 20px;
+ }
+ .navbar {
+      background-color:lightseagreen;
+      font-size: 20px;   
+ }  
+ .border {
+      display:block;
+      text-align: center;
+ }
+ .carousel-caption 
+ {
+     background-color: rgba(0, 0, 0, 0.5); 
+ }     
+ #carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0; 
+}
+.site-footer {
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
+ }
+  .maincontainer{
+        padding:20px 0;
+
+    }
+    body{
+        font-size:18px;
+    }
+    span{
+        color:red;
+    }
+    #headersite
     {
-        background-color: rgba(0, 0, 0, 0.5); 
-      }     
-      #carouselButton {
-        position: absolute;
-        right: 0;
-        bottom: 0; 
-      }
-     
-      
+        background-image: url("Images/image010.jpg");
+    }
