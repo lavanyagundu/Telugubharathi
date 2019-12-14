@@ -1,15 +1,51 @@
 
 .jumbotron
+{  margin: 0;  
+  background-image: linear-gradient(to right,lavender, lightseagreen,lavender);
+  height: 330px;;
+  color : black;
+}     
+  h2,h5,h4,h6,h3
 {
-    background-color:CC0099;
-    margin: 0
-}
-.navbar{
-    background-color:blueviolet;
+    text-align: center;
 
 }
+p{
+ text-align: center;
+}
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+    text-align: center; 
+}
+.btn {
+      border-radius: 15px;
+      color:         #f5f6f4d5;
+      padding:       5px 5px;
+      font:         "Open Sans", sans-serif;
+      text-align:    center;
+      margin : 20px;
+ }
+ .navbar {
+      background-color:lightseagreen;
+      font-size: 20px;   
+ }  
+ .border {
+      display:block;
+      text-align: center;
+ }
+ .carousel-caption 
+ {
+     background-color: rgba(0, 0, 0, 0.5); 
+ }     
+ #carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0; 
+}
 .site-footer {
-    background-image: linear-gradient(#CEC8FF, white);
+    background-image: linear-gradient(to right,lavender, lightseagreen,lavender);
     padding: 20px 0;
  }
   .maincontainer{
