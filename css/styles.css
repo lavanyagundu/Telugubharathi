@@ -5,7 +5,7 @@
   height: 330px;;
   color : black;
 }     
-  h2,h5,h4,h6,h3
+  h1,h2,h5,h4,h6,h3
 {
     text-align: center;
 
@@ -13,18 +13,30 @@
 p{
  text-align: center;
 }
+.btnheader {
 
-
-.btn {
-      border-radius: 15px;
-      color:         #f5f6f4d5;
-      padding:       5px 5px;
-      font:         "Open Sans", sans-serif;
+     border-radius: 40px;
+      color:        rgb(224, 197, 214);
+      font-size: 1em;
+      font-style: italic;
+      font-weight: bold;
+      padding:5px 5px;    
       text-align:    center;
       margin : 20px;
+      background-color:rgb(109,95, 236);
+      border-radius: 50%;
+      height: 4.5em;
+      width: 4.5em;
+      font-family:'Times New Roman', Times, serif;
+
+/*background: #456BD9;
+  border: 0.1875em solid #0F1C3F;
+  border-radius: 50%;
+  height: 4em;
+  width: 4em;*/
  }
  .navbar {
-      background-color:lightseagreen;
+      background-color: rgb(109,95, 236);
       font-size: 20px;   
  }  
  .border {
@@ -34,7 +46,8 @@ p{
  .carousel-caption 
  {
      background-color: rgba(0, 0, 0, 0.5); 
- }     
+
+ }       
  #carouselButton {
     position: absolute;
     right: 0;
@@ -48,10 +61,30 @@ p{
     body{
         font-size:18px;
     }
-    span{
-        color:red;
-    }
-    #headersite
+        #headersite
     {
         background-image: url("Images/image010.jpg");
     }
+.row-content{
+    text-align: center;
+}
+.card-header{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(109,95, 236);
+    font-style: italic;
+    
+}
+/*
+.accordion:hover .card-header:hover .card-body
+{
+    height: 10em;
+}
+.card-body, .accordion:hover .card-body{
+
+    height: 0;  
+    overflow: hidden;
+   }*/
+
+.card-body{
+    font-style: initial;
+}

@@ -1,38 +1,47 @@
 <html lang="en">
     <head>
-        <meta charet="utf-8"/>
+        <meta charet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-         <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-         <link rel="stylesheet" href="css/styles.css" />
-          <!-- <style>
-                .row {border: solid yellow;}    
-                .row div {border: solid purple;}
-                .form-row{border: solid green;} 
-              </style>    -->
-              <title>Home - తెలుగు భారతి</title>       
-     </head>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <!-- <style>
+                    .row {border: solid yellow;}    
+                    .row div {border: solid purple;}
+                    .form-row{border: solid green;} 
+                  </style>    -->
+        <title>Home - తెలుగు భారతి</title>
+    
+       <!-- <script>          $(function () {
+                $("#header").load("header.html");
+                $("#footer").load("footer.html");
+            });
+        </script> -->
+    </head>
     <body>
-        <header class="jumbotron">            
-                <div class="container">
-                    <div class="row">
-                            <div class="col col-md-4">
-                                    <img class="img-fluid" src="images/logo.png"/>
+        <!-- <div id="header"> 
+
+        </div> -->
+       <header class="jumbotron jumbotron-fluid">            
+                <div class="container container-fluid">
+                    <div class="row ">
+                            <div class="col my-auto col-sm-4">
+                                    <img src="images/logo.png"/>
                                 </div>
-                        <div class="col col-md-4 my-auto">
+                        <div class="col col-sm-4 my-auto">
                             <h2>తెలుగు భారతి</h2>
                             <h6>తెలుగు నేర్చుకోండి, తెలుగుదనం పంచండి</h6>
                         </div>
-                        <div class="col col-md-4 my-auto">
-                            <button class="btn btn-info btn-lg ">SignUp</button>
-                            <button class="btn btn-info btn-lg">LogIn</button>                          
+                        <div class="col col-sm-4 my-auto">
+                            <button class="btn btnheader">Register</button>
+                            <button class="btn btnheader">LogIn</button>                          
                          </div>
                     </div>   
                 </div>                                   
         </header> 
 
-         <nav class="navbar navbar-expand-md navbar-light">
+         <nav class="navbar navbar-expand-md navbar-dark">
              <div class="container container-fluid"> 
                     <button class="navbar-toggler ml-auto" type="button"
                                    data-toggle="collapse" data-target="#tel-navbar">
@@ -50,7 +59,7 @@
                                     </ul>
                                 </div>
                             </div>
-                </nav>  
+                </nav>   
             </br>              
                 
                 <div id="loginModal" class="modal fade" role="dialog">
@@ -130,20 +139,21 @@
                                     </button>
                                 </div>
                             </div>
+
                             <div class="col col-md-5">
-                                <!--<span class="border border-danger">-->
+                               
                                     <h2 class="bg-info">Latest News</h2>
-                                <div id="accordion">
+                                <div id="accordion1">
                                     <div role="tab" class="card-header">
                                         <h4>
                                             <a data-toggle="collapse" data-target="#bootstrap">Winter Cloth Drive
                                             </a>
                                         </h4>
-                                        <div class="collapse show" id="bootstrap" data-parent="#accordion">
+                                        <div class="collapse" id="bootstrap" data-parent="#accordion1">
                                             <div class="card-body">
-                                                <p class="d-none d-sm-block"></p>
+                                                <p class="d-none d-sm-block">winterwinter</p>
                                             </div>
-                    
+                   
                                         </div>
                                     </div>
                     
@@ -151,10 +161,10 @@
                                         <div role="tabpanel" class="card-header">
                     
                                             <h4>
-                                                <a class="collapsed" data-toggle="collapse" data-target="#newyear">New Year Party<small>:(</small>
+                                                <a class="collapsed" data-toggle="collapse" data-target="#newyear">New Year Party<small></small>
                                                 </a>
                                             </h4>
-                                            <div class="collapse" id="newyear" data-parent="#accordion">
+                                            <div class="collapse" id="newyear" data-parent="#accordion1">
                                                 <div class="card-body">
                                                     <p class="d-none d-sm-block">hi</p>
                                                 </div>
@@ -166,7 +176,7 @@
                                             <h4>
                                                 <a class="collapsed" data-toggle="collapse" data-target="#sankranthi">Sankranthi sambaralu
                                                     <small></small></a></h4>
-                                            <div class="collapse" id="sankranthi" data-parent="accordion">
+                                            <div class="collapse" id="sankranthi" data-parent="accordion1">
                                                 <div class="card-body">
                                                     <p class="d-none d-sm-block">sankranthi</p>
                                                 </div>
@@ -177,6 +187,7 @@
                             </div>
                         </div>
                         </div>
+                    </br>
                         <footer class="site-footer">
                                 <div class="container">
                                        <div class="row">
@@ -196,6 +207,13 @@
                                
                            </div>
                
-                       </footer>          
+                       </footer>     
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>     
+ <!-- <script src="https://code.jquery.com/jquery-3.3.1.js"
+integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+crossorigin="anonymous"></script>  -->
         </body>
 </html>
